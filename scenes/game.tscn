@@ -32,3 +32,5 @@ tile_set = SubResource("TileSet_vbili")
 zoom = Vector2(0.36, 0.36)
 
 [node name="Node2D" parent="." instance=ExtResource("2_dx886")]
+
+[node name="SelectDraw" type="Node" parent="."]
