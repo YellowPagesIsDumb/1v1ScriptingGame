@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6pye4lewls5m"]
+
+[ext_resource type="Texture2D" uid="uid://bikem8bk0ygnb" path="res://assets/sprites/gray pixel.png" id="1_0m1jo"]
+[ext_resource type="PackedScene" uid="uid://5isifjtgwajh" path="res://scenes/bot.tscn" id="2_dx886"]
+
+[node name="Game" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -48.0
+offset_top = -39.0
+offset_right = 1214.0
+offset_bottom = 705.0
+texture = ExtResource("1_0m1jo")
+
+[node name="Bot" parent="." instance=ExtResource("2_dx886")]
